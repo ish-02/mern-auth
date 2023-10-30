@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import {activate, resendEmail} from "./api";
-import {useLocation, useSearchParams} from "react-router-dom";
+import {useSearchParams} from "react-router-dom";
 
 function Activate() {
 
 	const [code, setCode] = useState("");
-	const [params, setParams] = useSearchParams();
+	const [params, _] = useSearchParams();
 
 	const onChange = (evt) => {
 		setCode(code + evt.target.value);
