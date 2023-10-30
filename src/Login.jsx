@@ -64,7 +64,7 @@ function Login() {
 							   className={"pr-6 w-full outline-0"}
 							   required autoComplete={"new-password"}
 						/>
-						<button type={"button"} name={"togglePassword"} onClick={togglePassword} className="material-symbols-outlined absolute right-0 mr-4">visibility</button>
+						<button type={"button"} name={"togglePassword"} onClick={togglePassword} className="material-symbols-outlined absolute right-0 mr-4">visibility_off</button>
 
 					</div>
 
